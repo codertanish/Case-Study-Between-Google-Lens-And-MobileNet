@@ -1,0 +1,77 @@
+.test_image_and_result {
+    background-color: aquamarine;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding: 30px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 20px black;
+    margin-bottom: 75px;
+}
+
+.mini_result {
+    text-align: center;
+    color: lightcoral;
+}
+
+body {
+    font-family: Comic Sans MS;
+    text-align: center;
+    background: linear-gradient(90deg, rgba(184,186,9,1) 0%, rgba(240,236,22,1) 7%, rgba(255,247,0,1) 11%, rgba(255,247,0,1) 27%, rgba(255,162,3,1) 50%, rgba(255,60,2,1) 72%, rgba(255,41,1,1) 81%, rgba(231,30,18,1) 94%, rgba(199,5,5,1) 100%);}
+
+         
+.btn-grad {
+    background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    border-radius: 10px;
+    width: 30%;
+    font-size: 25px;
+
+  }
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .copy_right_footer {
+      width: 100% !important;
+      position: fixed;
+      bottom: 0;
+      float: none;
+      line-height: 1;
+      text-align: center;
+
+  }
+
+           
+  .btn-grad1 {
+    background-image: linear-gradient(to right, #4CB8C4 0%, #3CD3AD  51%, #4CB8C4  100%);
+    margin-right: 1000px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    border-radius: 10px;
+    display: block;
+  }
+
+  .btn-grad1:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+
+  #overall_result {
+      margin-bottom: 100px;
+  }
+ 
+ 
